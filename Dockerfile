@@ -17,7 +17,7 @@ COPY . .
 # # Install serve to run the application
 # RUN npm install -g serve
 
-EXPOSE 5173
+EXPOSE 5174
 
 # Serve the app
 CMD ["npm", "run", "dev", "--", "--host", "0.0.0.0"]
